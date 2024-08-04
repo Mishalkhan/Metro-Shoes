@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 1st line of website */
+.aline{
+    display: flex;
+}
+.aaline{
+    width: 35%;
+}
+.abline{
+    width: 65%;
+}
+/* Display flex */
+.displayflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Container */
+.container{
+    width: 97%;
+    margin: auto;
+}
+/* 1st Navbar */
+.logonavbar{
+    width: 25%;
+}
+.formnavbar{
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+    width: 50%;
+}
+.iconform{
+    color: #7D7D7D;
+}
+.empty{
+    border: 0px;
+    padding: 10px;
+    width: 92%;
+}
+.iconsnavbar{
+    width: 25%;
+    text-align: right;
+}
+.icon1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* 2nd Navbar */
+.main_navbar{
+    background-color: black;
+    padding: 10px 0px;
+}
+.main_navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+}
+.main_navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.sale{
+    color: #FF0000 !important ;
+}
+.sale sup sup{
+    background-color: #FF0000;
+    color: white;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+/* Card 1st line of 6 images */
+.card1{
+    width: 16%;
+    justify-content: space-between;
+}
+.card1 img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card1 p{
+    background-color: #F8F8F8;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* card 2 */
+.card2{
+    width: 24%;
+    line-height: 1.5;
+    position: relative;
+}
+.childcard2{
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    background-color: #E6E6E6;
+    padding: 0px 5px;
+}
+.line1{
+    text-align: center;
+    font-weight: 600;
+}
+.price1{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+.price1 del{
+    color: #515151 !important;
+}
+/* hr */
+
+hr{
+    border: 1px solid black;
+}
+
+/* BigCard */
+.bigcard{
+    width: 33%;
+}
+
+/* Big Card Landscape */
+.bigcardland{
+    width: 32%;
+}
+.blogcontent{
+    text-align: center;
+    height: 200px;
+    padding: 7px;
+}
+.blogheading{
+    color: #FF0000;
+    font-size: 30px;
+    font: 600;
+    text-align: center;
+}
+.blogparagraph{
+    text-align: center;
+}
+.readmore{
+    color: #7D7D7D;
+}
+
+/* footercard */
+.displayflex1{
+    display: flex;
+    justify-content: space-between;
+}
+.footercard{
+    line-height: 2.0;
+    font-size: 15px;
+    padding-right: 30px;
+}
+.f1{
+    width: 30%;
+}
+.f2{
+    width: 15%;
+}
+.f3{
+    width: 15%;
+}
+.f4{
+    width: 30%;
+}
+.f11{
+    padding-bottom: 20px !important;
+}
+.footercard ul{
+    list-style: none;
+}
+.footercard ul li{
+    padding-bottom: 8px;
+}
+.footercard ul li a{
+    text-decoration: none;
+    color: black;
+}
+.ficon1{
+    padding-right: 10px;
+}
+.ficon2{
+    padding-right: 20px;
+}
+.footerform{
+    width: 70%;
+    padding: 15px 7px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+/* Last Footer */
+.lastfooter_container{
+    background-color: black;
+    padding: 20px;
+}
+.lastfooter{
+    color: #878787;
+    text-align: center;
+    font-size: 17px;
+}
+.whatsapp img{
+    position: fixed;
+    bottom: 62px;
+    right: 4px;
+}
